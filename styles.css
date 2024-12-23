@@ -1,0 +1,83 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:10px;
+}
+
+/* Container Styling */
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Display Styling */
+.display {
+    margin-bottom: 20px;
+}
+
+#display {
+    width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Buttons Container Styling */
+.buttons {
+    display: flex;
+}
+
+/* Button Styling */
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin:2px;
+}
+
+.numbers button:hover {
+    background-color: #ccc;
+}
+.symbols button:hover {
+    background-color: #d56f10;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+/* Special Buttons */
+button:focus {
+    outline: none;
+}
+
+.symbols button {
+    background-color: rgb(239, 125, 19);
+}
+
+.numbers {
+    padding:5px;
+}
+
