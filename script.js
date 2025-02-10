@@ -4,7 +4,7 @@ function addToDisplay(button) {
     display.value += button;
 }
 
-function clear(){
+function clearDisplay(){
     display.value = "";
 }
 
